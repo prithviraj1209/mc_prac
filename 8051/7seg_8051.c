@@ -3,7 +3,7 @@
 void delay(){
     int i;
     for(i=0; i<=12; i++){
-        TMOD = Ox01;
+        TMOD = 0x01;
         TL0 = 0x00;
         TH0 = 0x00;
         TR0 = 1;
